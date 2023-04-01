@@ -10,6 +10,8 @@ using namespace Eigen;
 #include <chrono>
 using namespace std;
 
+/* approximating the diagonal correction matrix*/
+
 MatrixXd ApproDiag(const SpM& mat, double c, int k, const MatrixXd& W)
 {
 	auto tp1 = chrono::system_clock::now();
