@@ -1,5 +1,7 @@
 function Example2()
 
+% test SimSky_.m simplified version, the default diagonal correction matrix is the identity matrix.
+
 A=[0 0 1/2 0 0 0;1 0 0 1 0 0;0 1/2 0 0 0 0;0 0 1/2 0 0 1;0 1/2 0 0 0 0;0 0 0 0 1 0];
 A
 n=size(A,1);
