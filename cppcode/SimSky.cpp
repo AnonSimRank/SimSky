@@ -12,6 +12,8 @@ using namespace std;
 #include "Arnoldi.h"
 #include "ApproDiag.h"
 
+//full version, computing single-source SimRank search, includes the approximation of the diagonal correction matrix.
+
 VectorXd SimSky(const SpM& mat, const MatrixXd& W, int m1, int m2, int k, double c, const SpV& query_vec, bool reorthog)
 {
 	const int n = mat.rows();
