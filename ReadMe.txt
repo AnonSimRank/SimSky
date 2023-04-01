@@ -1,2 +1,0 @@
-SimSky.m : full version, computing single-source SimRank search, includes the approximation of the diagonal correction matrix
-SimSky_.m : simplified version, the default diagonal correction matrix is the identity matrix
