@@ -27,24 +27,19 @@ for i=1:m
     
     for j=1:i
         temp=r'*V(1:n,j);
-%         r=r-temp*V(1:n,j);
-%         t=t-temp*V(n+1:(m+1)*n,j);
         s=s-temp*V(:,j);
         H(j,i)=temp;
     end
     
     if reorthog==1
         for j=1:i
-%             temp=r'*V(1:n,j);
             temp=s(1:n)'*V(1:n,j);
             H(j,i)=H(j,i)+temp;
-%             r=r-temp*V(1:n,j);
-%             t=t-temp*V(n+1:(m+1)*n,j);
             s=s-temp*V(:,j);
         end
     end
     
-%     H(i+1,i)=norm(r);
+
     H(i+1,i)=norm(s(1:n));
     if H(i+1,i) < tol*ow
         m=i;
@@ -54,7 +49,6 @@ for i=1:m
         P=V(k*n+1:(k+1)*n,1:1+m);
         return;
     end
-%     V(:,i+1)=[r/H(i+1,i);t/H(i+1,i)];
     V(:,i+1)=s/H(i+1,i);
 end
 
