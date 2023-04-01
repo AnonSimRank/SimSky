@@ -1,7 +1,5 @@
 # SimSky
 
-SimSky algorithm is designed to compute single-source SimRank search.
-
 ---
 
 ## Instruction of Matlab implementation
