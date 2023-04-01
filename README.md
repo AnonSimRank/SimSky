@@ -1,14 +1,13 @@
 # SimSky
 
-compute single-source SimRank search
-
+SimSky algorithm is designed to compute single-source SimRank search.
 
 ---
 
 ## Instruction of Matlab implementation
 
-SimSky.m : full version, computing single-source SimRank search, includes the approximation of the diagonal correction matrix   
-SimSky_.m : simplified version, the default diagonal correction matrix is the identity matrix 
+SimSky.m : full version, computing single-source SimRank search, includes the approximation of the diagonal correction matrix.   
+SimSky_.m : simplified version, the default diagonal correction matrix is the identity matrix. 
 
 
 **Matlab version:** Matlab R2020a
@@ -22,7 +21,7 @@ cd SimSky/mcode
 
 ### Example
 
-**Example1.m:** Test the function of the ApproDiag algorithm on a graph containing six nodes
+**Example1.m:** Test the function of the ApproDiag algorithm on a graph containing six nodes.
 
 **Example2.m:** Test the SimSky_ algorithm function.
 
