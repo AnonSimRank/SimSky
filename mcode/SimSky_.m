@@ -1,4 +1,4 @@
-function [Q,P,H,m]=superior_SOAR(B,m,k,final_vec_seq,reorthog)
+function [Q,P,H,m]=SimSky_(B,m,k,final_vec_seq,reorthog)
 %Input:   
 %         B -- n-by-n matrix
 %         final_vec_seq -- (k+1)*n-by-1 vector [W^k*v0/norm(W^k*v0) v0/norm(W^k*v0) W*v0/norm(W^k*v0) ... W^(k-1)*v0/norm(W^k*v0)]
