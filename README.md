@@ -6,7 +6,9 @@ SimSky is an algorithm to compute single-source SimRank Search.
 
 ## Instruction of Matlab implementation
 ApproDiag.m : approximating the diagonal correction matrix
+
 SimSky.m : full version, computing single-source SimRank search, includes the approximation of the diagonal correction matrix.   
+
 SimSky_.m : simplified version, the default diagonal correction matrix is the identity matrix. 
 
 
@@ -32,6 +34,10 @@ cd SimSky/mcode
 ---
 
 ## Instruction of c++ implementation
+
+ApproDiag.app : approximating the diagonal correction matrix
+
+SimSky.app : full version, computing single-source SimRank search, includes the approximation of the diagonal correction matrix.   
 
 **Compile Environment:** Visual Studio 2019 + MSVC16
 
