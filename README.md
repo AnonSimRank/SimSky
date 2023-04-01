@@ -1,6 +1,10 @@
 # SimSky
 
 
+
+
+---
+
 ## Instruction of Matlab implementation
 ###  Matlab version: R2020a
 
@@ -15,8 +19,9 @@ cd SimSky/mcode
 
 **Example2.m:** Test the SimSky algorithm function.
 
-**Example3.m:** Test the actual error and upper bound .
+**Example3.m:** Test the actual error and upper bound.
 
+---
 
 ## Instruction of c++ implementation
 **Compile Environment:** Visual Studio 2019 + MSVC16
