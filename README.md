@@ -19,9 +19,9 @@ cd SimSky/mcode
 
 
 ## Instruction of c++ implementation
-### Compile Environment: Visual Studio 2019 + MSVC16
-### Dependence
-1. Eigen 
+**Compile Environment:** Visual Studio 2019 + MSVC16
+**Dependence:**
+   1. Eigen 
 
 ### Download code
 ```
