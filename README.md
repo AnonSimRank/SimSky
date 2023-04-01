@@ -21,11 +21,13 @@ cd SimSky/mcode
 
 ### Example
 
-**Example1.m:** Test the function of the ApproDiag algorithm on a graph containing six nodes.
+**Example1.m:** Test the ApproDiag algorithm on a graph containing six nodes.
 
-**Example2.m:** Test the SimSky_ algorithm function.
+**Example2.m:** Test the SimSky_ algorithm.
 
 **Example3.m:** Test the actual error and upper bound.
+
+**Example4.m:** Test the SimSky algorithm.
 
 ---
 
