@@ -1,5 +1,7 @@
 function Example3()
 
+% test the actual error and upper bound, iterative error in Eq.16
+
 c=0.8;
 theta=1;
 A = [0 0 1/2 0 0 0;1 0 0 1 0 0;0 1/2 0 0 0 0;0 0 1/2 0 0 1;0 1/2 0 0 0 0;0 0 0 0 1 0];
