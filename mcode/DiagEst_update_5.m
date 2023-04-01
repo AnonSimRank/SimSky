@@ -1,6 +1,6 @@
 function D=DiagEst_update_5(A,c,k,V)
 
-%DiagEst_update_4 computes diagonal matrix
+%DiagEst_update_5 computes diagonal correction matrix
 
 [n, A_col_num]=size(A);
 [V_row_num, V_col_num]=size(V);
@@ -12,13 +12,11 @@ end
 
 D=zeros(n,k+1);
 one_vec_n=ones(n,1);
-% one_vec_s=ones(s,1);
 D(:,1)=one_vec_n;
 
 for j=1:k
     nume=zeros(n,1);
-    parfor i=1:V_col_num
-%         v_i=V(:,i);
+    for i=1:V_col_num
         v_i=V(:,i);
         u_vec_cell=cell(j+1,1);
         u_vec_cell{1}=v_i;
